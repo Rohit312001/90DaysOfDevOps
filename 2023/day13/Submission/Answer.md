@@ -12,6 +12,7 @@
 ![Python Version](https://user-images.githubusercontent.com/76991475/226714731-f8931903-cbd8-4c32-80a9-455514c534b0.png)
 
 **`Step 2:`**
+
 ![Python Installation](https://user-images.githubusercontent.com/76991475/226714764-d66a221e-1182-44dd-bf4d-7e77f77d6aa2.png)
 
 ---
