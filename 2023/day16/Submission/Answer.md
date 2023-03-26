@@ -36,11 +36,11 @@
 
 ![docker run](https://user-images.githubusercontent.com/76991475/227799605-5401eb71-6f17-4dfb-9da6-61da7bc3f44b.png)
 
-`Docker Desktop AppView`
+**`Docker Desktop AppView`**
 
 ![docker run desktop view](https://user-images.githubusercontent.com/76991475/227799614-9efc6014-2c9d-49c8-865e-9750c1e1f298.png)
 
-`Running in **Interactive Environment** `
+**`Running in **Interactive Environment** `**
 
 ![docker run -it command](https://user-images.githubusercontent.com/76991475/227799647-5b391b1f-d0c7-4761-963c-2e058a023e85.png)
 
@@ -53,13 +53,14 @@
 
 ![docker port](https://user-images.githubusercontent.com/76991475/227799787-2efc2843-b924-44cb-afcd-450dbdc591dd.png)
 
-`WebView on httpport:27017`
+**`WebView on httpport:27017`**
 
 ![docker http port 27017](https://user-images.githubusercontent.com/76991475/227799795-10f45714-bf4d-4019-9127-300d8de383b8.png)
 
 - **`docker stats <image_id>`** -> This command show the resource usage statistics for one or more containers.
 
 ![docker stats](https://user-images.githubusercontent.com/76991475/227799829-3faaae90-e2f6-46b1-8374-d12f4096f5ac.png)
+
 ![docker stats shown](https://user-images.githubusercontent.com/76991475/227799848-59ebc866-7bb5-4c99-9b9e-136e1d9907d0.png)
 
 - **`docker top <container_id>`** -> This command shows the processes running inside a containers.
@@ -67,9 +68,10 @@
 ![docker top](https://user-images.githubusercontent.com/76991475/227799860-2fdd0ffa-bc9d-4d71-a1c6-2296b12a89f1.png)
 
 - **`docker save`** -> This command is used to save an image to a tar archive.
-`docker save [OPTIONS] IMAGE [IMAGE...]`
+**`docker save [OPTIONS] IMAGE [IMAGE...]`**
 
 ![docker save](https://user-images.githubusercontent.com/76991475/227799887-bfc8c908-cdb9-49b2-9e2b-9892f59ef4cc.png)
+
 ![docker save folder view](https://user-images.githubusercontent.com/76991475/227799894-e1bf8605-8262-4c6c-a375-d428e465814c.png)
 
 - **`docker load`** -> This ccommand is used to load an image from a tar archive.
