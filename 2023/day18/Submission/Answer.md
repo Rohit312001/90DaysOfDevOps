@@ -59,6 +59,7 @@ Eg.(**`Containers`**,**`images`**,**`port`**,**`environments`**)
 ### Use the docker stop and docker start commands to stop and start the container.
 
 **`To stop the docker container`**
+
 `docker stop <container_id>or<image_id>`
 
 ![Screenshot from 2023-03-31 20-26-07](https://user-images.githubusercontent.com/76991475/229157971-d1ec8b78-7304-4a22-84dc-eed3e46ea8fa.png)
@@ -66,6 +67,7 @@ Eg.(**`Containers`**,**`images`**,**`port`**,**`environments`**)
 ![Screenshot from 2023-03-31 20-25-09](https://user-images.githubusercontent.com/76991475/229158088-cdffcadc-14fe-4dc6-a445-87ae94b290c2.png)
 
 **`To start the docker container`**
+
 `docker start <container_id>or<image_id>`
 
 ![Screenshot from 2023-03-31 20-26-17](https://user-images.githubusercontent.com/76991475/229158172-c3df5ba1-b1ed-4364-9647-d5a7f1927d5d.png)
