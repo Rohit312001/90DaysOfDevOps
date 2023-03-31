@@ -44,6 +44,7 @@ Eg.(**`Containers`**,**`images`**,**`port`**,**`environments`**)
 
 ---
 ### Inspect the container's running processes and exposed ports using the docker inspect command.
+`docker inspect <container_id>or<image_id>`
 
 ![](https://user-images.githubusercontent.com/76991475/227799664-a2b6fca8-c7e4-4cce-aaf0-1cecedda6f5a.png)
 
