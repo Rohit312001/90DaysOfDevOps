@@ -4,18 +4,19 @@ metadata:
   name: todo-app
   labels:
     app: todo
+  namespace: django-app
 spec:
   replicas: 2
   selector:
-    matchLabels:
-      app: todo
+    matchlabels:
+      app: django-app
   template:
     metadata:
       labels:
-        app: todo
+        app: django-app
     spec:
       containers:
-      - name: todo
-        image: rishikeshops/todo-app
-        ports:
-        - containerPort: 3000
+      -name: todo
+      image: rohit8329/django-app:latest
+      ports:
+      - containerPort: 8000
