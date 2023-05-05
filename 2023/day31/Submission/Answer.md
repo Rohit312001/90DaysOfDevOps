@@ -94,7 +94,7 @@ sudo apt install snap
 
 - **CLI for Minikube is Kubectl.**
 ```
-sudo snap install kubectl — classic
+sudo snap install kubectl --classic
 ```
 
 ![Screenshot from 2023-04-17 23-12-11](https://user-images.githubusercontent.com/76991475/232585758-3bf76427-a388-478e-94c1-c00ee5b18a75.png)
