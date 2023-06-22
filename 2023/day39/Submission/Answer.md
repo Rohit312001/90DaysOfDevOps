@@ -1,4 +1,4 @@
-# Day 39 : AWS EC2 and Jenkins
+# Day 39 : AWS EC2 Automation and Jenkins
 
 ### Why AWS ?
 - **`AWS`** is one of the `most popular Cloud Provider` that has `free tier too for students and Cloud enthutiasts` for their `Handson` while `learning` (Create your free account today to explore more on it).
