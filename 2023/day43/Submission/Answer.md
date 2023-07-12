@@ -6,7 +6,7 @@
 - With **cost-effective storage classes** and **easy-to-use management features**, you can `optimize costs`, `organize data`, and configure fine-tuned access controls to meet specific business, organizational, and compliance requirements.
 
 ## What is AWS CLI?
--The **AWS Command Line Interface** (AWS CLI) is a unified tool to manage your **AWS services**. With just `one tool to download` and `configure`, you can control `multiple AWS services` from the command line and automate them through scripts.
+- The **AWS Command Line Interface** (AWS CLI) is a unified tool to manage your **AWS services**. With just `one tool to download` and `configure`, you can control `multiple AWS services` from the command line and automate them through scripts.
 - The **AWS CLI** v2 offers several new features including improved `installers`, `new configuration` options such as `AWS IAM Identity` Center (successor to `AWS SSO`), and various interactive features.
 
 ---
