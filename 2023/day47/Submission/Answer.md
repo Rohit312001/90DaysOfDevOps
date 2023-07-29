@@ -2,7 +2,7 @@
 
 ### Today, we will be working on a frontend project on AWS, as part of the 90 Days of DevOps Challenge.
 
-- This project comprises of Html, CSS, and JavaScript. We will be using AWS EC2 using Apache2 webserver host our website ,Auto Scaling group to scale the instances based on the demand, and AWS CloudWatch to monitor the performance of the Auto Scaling group and the EC2 instances.
+- This project comprises of **HTML**, **CSS**, and **JavaScript**. We will be using **AWS EC2** using **Apache2 webserver** host our website ,**Auto Scaling group** to **scale the instances** based on the demand, and **AWS CloudWatch** to monitor the performance of the **Auto Scaling** group and the **EC2 instances**.
 
 - We hope that this project will give you hands-on experience with AWS services and help you understand how these services work together. If you have any questions or face any issues while doing the tasks, please let us know.
 
