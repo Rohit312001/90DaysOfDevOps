@@ -95,6 +95,6 @@
 
 ### Do you prefer to host a website on S3? What's the reason if your answer is either yes or no?
 
-- Yes, I would prefer to host a website on S3. It is a `cost-effective` and `scalable` solution for `static websites`. It also provides `high availability` and `reliability` with `99.99% uptime`. S3 also supports `custom domain names` and `SSL/TLS` certificates, which are essential for hosting websites.
+- Yes, I would prefer to host a website on S3. It is a `cost-effective` and `scalable` solution for `static websites`. It also provides `high availability` and `reliability` with `99.99% uptime`. S3 also supports `custom domain names` and `SSL/TLS` certificates, which are essential for `hosting websites`.
 
 ---
