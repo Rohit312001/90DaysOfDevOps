@@ -102,13 +102,13 @@ terraform -install-autocomplete
 
 - **Version Control:** Infrastructure code can be version-controlled using tools like Git, allowing for collaboration, history tracking, and code reviews.
 
-**Immutable Infrastructure:** Terraform promotes the concept of immutable infrastructure, where changes are made by replacing resources, enhancing predictability and rollback capabilities.
+- **Immutable Infrastructure:** Terraform promotes the concept of immutable infrastructure, where changes are made by replacing resources, enhancing predictability and rollback capabilities.
 
-**Dependency Management:** Terraform handles resource dependencies, ensuring resources are provisioned in the correct order.
+- **Dependency Management:** Terraform handles resource dependencies, ensuring resources are provisioned in the correct order.
 
-**Plan and Apply:** It provides a "plan" phase to preview changes before applying them, reducing the risk of unexpected disruptions during deployments.
+- **Plan and Apply:** It provides a "plan" phase to preview changes before applying them, reducing the risk of unexpected disruptions during deployments.
 
-**Community and Ecosystem:** Terraform boasts a robust community and ecosystem with a wealth of pre-built modules and plugins, simplifying the adoption of best practices and solutions.
+- **Community and Ecosystem:** Terraform boasts a robust community and ecosystem with a wealth of pre-built modules and plugins, simplifying the adoption of best practices and solutions.
 
 ### What is Infrastructure as Code(IaC)?
 
