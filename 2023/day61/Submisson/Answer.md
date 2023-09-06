@@ -11,79 +11,109 @@
 
 **Here are some commonly used Terraform commands:**
 
-1. **Command:** `terraform init`
+1. **Command: init**
 
-- **terraform init:** `Initializes` a **new** or **existing Terraform configuration** in the current directory. This command downloads the necessary provider `plugins` and sets up the `working directory`.
+`terraform init`
+
+- `Initializes` a **new** or **existing Terraform configuration** in the current directory. This command downloads the necessary provider `plugins` and sets up the `working directory`.
 - **What it does:** Prepares your project for Terraform.
 
-2. **Command:** `terraform init -upgrade`
+2. **Command: init -upgrade**
 
-- **terraform init -upgrade:** `Upgrades` the installed Terraform plugins to the latest version, if available. This command is useful when `upgrading Terraform versions` or when there are new versions of the plugins that need to be used.
+`terraform init -upgrade`
+
+- `Upgrades` the installed Terraform plugins to the latest version, if available. This command is useful when `upgrading Terraform versions` or when there are new versions of the plugins that need to be used.
 - **What it does:** It Upgrades the installed Terraform to its latest version.
 
-3. **Command:** `terraform plan`
+3. **Command:**
 
-- **terraform plan:** Generates an `execution plan` describing what Terraform will do to `reach the desired state` defined in your configuration. It shows which resources will be **created**, **updated**, or **destroyed**.
+`terraform plan`
+
+- Generates an `execution plan` describing what Terraform will do to `reach the desired state` defined in your configuration. It shows which resources will be **created**, **updated**, or **destroyed**.
 - **What it does:** Shows what Terraform will do without making changes.
 
-4. **Command:** `terraform apply`
+4. **Command: apply**
 
-- **terraform apply:** `Applies the changes` defined in your Terraform configuration to `create` or `update resources` based on the execution plan. It prompts for confirmation before making changes.
+`terraform apply`
+
+- `Applies the changes` defined in your Terraform configuration to `create` or `update resources` based on the execution plan. It prompts for confirmation before making changes.
 - **What it does:** Makes changes to your infrastructure based on the plan.
 
-5. **Command:** `terraform validate`
+5. **Command: validate**
 
-- **terraform validate:** `Checks the syntax` and `configuration of your Terraform files` for errors without actually creating or modifying resources.
+`terraform validate`
+
+- `Checks the syntax` and `configuration of your Terraform files` for errors without actually creating or modifying resources.
 - **What it does:** Checks your configuration for errors.
 
-6. **Command:** `terraform fmt`
+6. **Command: fmt**
 
-- **terraform fmt:** `Rewrites` Terraform configuration files to a `canonical format` and style. This applies standard formatting conventions to the code to make it easier to read and understand.
+`terraform fmt`
+
+- `Rewrites` Terraform configuration files to a `canonical format` and style. This applies standard formatting conventions to the code to make it easier to read and understand.
 - **what it does:** It helps ensure that your code is easy to **read**, **maintain**, and **collaborate** on by enforcing a consistent code structure.
 
-7. **Command:** `terraform destroy`
+7. **Command: destroy**
 
-- **terraform destroy:** Destroys all `resources` defined in your `configuration,` effectively tearing down your infrastructure. It also prompts for confirmation before proceeding.
+`terraform destroy`
+
+- Destroys all `resources` defined in your `configuration,` effectively tearing down your infrastructure. It also prompts for confirmation before proceeding.
 - **What it does:** Removes all resources created by Terraform.
 
-8. **Command:** `terraform show`
+8. **Command:show**
 
-- **terraform show:** Inspects the `current state` of the `infrastructure` and `outputs` the `resource` information.
+`terraform show`
+
+- Inspects the `current state` of the `infrastructure` and `outputs` the `resource` information.
 - **What it does:** Shows the current state of your infrastructure.
 
-9. **Command:** `terraform graph`
+9. **Command: graph**
+
+`terraform graph`
 
 - **terraform graph:** Creates a visual representation of the Terraform `resources` defined in your `configuration`. It outputs the generated graph in the DOT format.
 - **What it does:** Generates a visual graph of resource dependencies.
 
-10. **Command:** `terraform import`
+10. **Command:**
 
-- **terraform import:** Imports existing `infrastructure` into your Terraform `state`. This allows you to take resources you've created by some other means and bring it under Terraform management.
+`terraform import`
+
+- Imports existing `infrastructure` into your Terraform `state`. This allows you to take resources you've created by some other means and bring it under Terraform management.
 - **What it does:** Imports existing infrastructure into Terraform.
 
-11. **Command:** `terraform output`
+11. **Command: output**
 
-- **terraform output:** Reads the `state` file and `outputs` the `value` of a `specified output variable`. This is useful for fetching the value of a specific variable.
+`terraform output`
+
+- Reads the `state` file and `outputs` the `value` of a `specified output variable`. This is useful for fetching the value of a specific variable.
 - **What it does:** Reads an output from a state file.
 
-12. **Command:** `terraform providers`
+12. **Command: provider**
 
-- **terraform providers:** Prints a tree of the `providers` used in the `configuration`. This is useful for finding out the providers required for a configuration.
+`terraform providers`
+
+- Prints a tree of the `providers` used in the `configuration`. This is useful for finding out the providers required for a configuration.
 - **What it does:** Lists the providers (e.g., AWS, Azure) used in your configuration.
 
-13. **Command:** `terraform workspace`
+13. **Command: workspace**
 
-- **terraform workspace:** Used to create, list, and delete Terraform `workspaces`. Workspaces allow you to manage multiple distinct sets of infrastructure resources with the same configuration files.
+`terraform workspace`
+
+- Used to create, list, and delete Terraform `workspaces`. Workspaces allow you to manage multiple distinct sets of infrastructure resources with the same configuration files.
 - **What it does:** Manages workspaces (e.g., dev, staging, prod).
 
-14. **Command:** `terraform refresh`
+14. **Command: refresh**
 
-- **terraform refresh:** Updates the `state` of `resources` in a Terraform `state` file. This is useful when the `state` of a resource is changed by some other means.
+`terraform refresh`
+
+- Updates the `state` of `resources` in a Terraform `state` file. This is useful when the `state` of a resource is changed by some other means.
 - **What it does:** Updates the state file.
 
-15. **Command:** `terraform version`
+15. **Command: version**
 
-- **terraform version:** Prints the `Terraform version`. This is useful for checking which version of Terraform is running.
+`terraform version`
+
+- Prints the `Terraform version`. This is useful for checking which version of Terraform is running.
 - **What it does:** Prints the Terraform version.
 
 ### Who are Terraform's main competitors?
