@@ -21,8 +21,8 @@
 
 ```hcl
 provider "aws" {
-  access_key = "AKIAQLUGEJSRZT6DM2FJ"
-  secret_key = "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"
+  access_key = "--"
+  secret_key = "--"
   region     = "ap-south-1"
 }
 resource "aws_s3_bucket" "devops_name_bucket_1" {
