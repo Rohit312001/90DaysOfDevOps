@@ -182,8 +182,8 @@ terraform {
   required_version = ">=1.2.0"
 }
 provider "aws" {
-  access_key = "AKIAQLUGEJSR3I37Q5NW"
-  secret_key = "Tjnt6V+aphAYz7Zdb5qTd9Te95lPg5WssNfuRa6/"
+  access_key = "use your user IAM access key"
+  secret_key = "use your user IAM secret key"
   region     = "us-east-1"
 }
 locals {
