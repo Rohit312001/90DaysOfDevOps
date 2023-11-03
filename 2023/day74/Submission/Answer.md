@@ -41,6 +41,16 @@
 
 - **Alert on your logs:** Set up `alerting rules` for `Loki to evaluate` on your incoming log data. Configure Loki to send the resulting alerts to a Prometheus Alertmanager so they can then get routed to the right team.
 
+### What is Promtail?
+
+- **Promtail** is an agent which ships the contents of local logs to a private `Grafana Loki instance or Grafana Cloud`. It is usually deployed to every machine that runs applications which need to be monitored.
+
+1. **It primarily:**
+
+- Discovers targets
+- Attaches labels to log streams
+- Pushes them to the Loki instance.
+
 ### Grafana Loki Architecture:
 
 ![Alt text](diagram-export-30-10-2023-16_12_10.png)
