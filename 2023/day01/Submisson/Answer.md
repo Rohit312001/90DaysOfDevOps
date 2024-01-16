@@ -29,3 +29,4 @@ operating systems, virtual machines, and cloud computing platforms.
 - DevOps is important because it helps organizations to deliver `software faster`, `more efficiently`, and with `higher quality`.
 - DevOps enables organizations to `work more collaboratively`, and to automate many of the processes involved in software delivery.
 - DevOps also promotes a `culture of continuous improvement`, where teams are constantly seeking to identify and `eliminate inefficiencies` in the software delivery process.
+- This helps organizations to respond to customer needs more quickly and effectively, and to deliver software that is more reliable and secure.
